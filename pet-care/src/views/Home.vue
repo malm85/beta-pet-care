@@ -14,13 +14,21 @@
     </v-app-bar>
 
     <v-main>
-      <!--  -->
+      <Calendar/>
     </v-main>
   </v-app>
 </template>
 
 <script>
+  import Calendar from '../components/Calendar'
+
   export default {
     data: () => ({ drawer: null }),
+    
+    name: 'Home',
+
+    components: {
+      Calendar,
+    },
   }
 </script>

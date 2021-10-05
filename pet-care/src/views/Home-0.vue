@@ -3,13 +3,15 @@
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import Calendar from '../components/Calendar'
 
   export default {
+    data: () => ({ drawer: null }),
+    
     name: 'Home',
 
     components: {
-      HelloWorld,
+      Calendar,
     },
   }
 </script>
