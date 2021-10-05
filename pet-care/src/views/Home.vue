@@ -10,17 +10,21 @@
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>PetCare</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
-      <Calendar/>
+        
+            <Card />
+      
+      <Example/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-  import Calendar from '../components/Calendar'
+  import Card from '../components/Card.vue'
+  import Example from '../components/Example.vue'
 
   export default {
     data: () => ({ drawer: null }),
@@ -28,7 +32,8 @@
     name: 'Home',
 
     components: {
-      Calendar,
-    },
+      Card,
+      Example,
+    }
   }
 </script>
