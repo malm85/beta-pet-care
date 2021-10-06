@@ -6,12 +6,11 @@
   import Calendar from '../components/Calendar'
 
   export default {
-    data: () => ({ drawer: null }),
     
-    name: 'Home',
+    name: 'Guarderia',
 
     components: {
-      Calendar,
+      Guarderia,
     },
   }
 </script>

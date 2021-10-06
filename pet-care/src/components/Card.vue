@@ -9,11 +9,11 @@
     ></v-img>
 
     <v-card-title>
-      {{titleCard}}
+      Guarderia
     </v-card-title>
 
     <v-card-subtitle>
-      {{subtitleCard}}
+      Encuentra quien cuide tus mascotas
     </v-card-subtitle>
 
     <v-card-actions>
@@ -40,7 +40,7 @@
         <v-divider></v-divider>
 
         <v-card-text>
-          {{textCard}}
+          En este espacio estamos ofreciendo la oportunidad de que la gente se conecte y empiece a tomar contacto con demas personas u hogares que quieran prestar el servicio de guarderia en su propia casa
         </v-card-text>
       </div>
     </v-expand-transition>

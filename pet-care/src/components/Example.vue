@@ -1,9 +1,11 @@
-<v-app>
-  <!-- Must have the app property -->
-  <v-app-bar app></v-app-bar>
-
-  <v-main>
-  <v-container>
-    Hello World
-  </v-main>
-</v-app>
+<template>
+  <v-footer padless>
+    <v-col
+      class="text-center"
+      cols="12"
+      
+    >
+      {{ new Date().getFullYear() }} — <strong>PetCare</strong>
+    </v-col>
+  </v-footer>
+</template>
